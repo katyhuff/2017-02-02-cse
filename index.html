@@ -1038,6 +1038,12 @@ Reveal.initialize({
 	// parallaxBackgroundSize: '2100px 900px',
 
 	// Optional libraries used to extend on reveal.js
+
+        // Optional libraries used to extend on reveal.js
+        math: {
+                mathjax: 'https://cdn.mathjax.org/mathjax/latest/MathJax.js',
+                config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html
+            },
 	dependencies: [
 	{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
 	{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
